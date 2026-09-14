@@ -1,0 +1,12 @@
+{
+  "readableLineLength": false,
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    ".venv/",
+    "_build/"
+  ],
+  "attachmentFolderPath": "dossier-travail/pièces-jointes",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "spellcheck": true
+}

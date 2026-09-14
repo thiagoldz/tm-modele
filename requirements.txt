@@ -1,0 +1,8 @@
+# Outils de documentation du TM
+# Installation : uv venv && uv pip install -r requirements.txt
+
+sphinx>=8.0                 # le moteur de documentation
+myst-parser>=4.0            # lui apprend à lire le Markdown (donc Obsidian)
+linkify-it-py>=2.0          # transforme les URL brutes en liens cliquables
+furo>=2024.8.6              # le thème du site produit
+sphinx-autobuild>=2024.10.3 # aperçu en direct, rechargé à chaque sauvegarde

@@ -1,0 +1,34 @@
+# Résultat de la compilation Sphinx : il se régénère, il n'a rien à faire ici.
+_build/
+
+# Environnement Python : il se réinstalle avec requirements.txt.
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Obsidian : on garde la config du coffre (thème, plugins, modèles),
+# mais pas l'état de la fenêtre, qui change à chaque ouverture et
+# provoquerait un conflit à chaque synchronisation.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# macOS
+.DS_Store
+
+# Secrets : ne JAMAIS committer de clé d'API.
+# Un secret poussé sur GitHub est à considérer comme compromis, même après
+# suppression : il reste dans l'historique.
+.env
+*.key
+
+# Modèles de langage téléchargés : bien trop lourds pour git
+# (plusieurs Go, alors que GitHub limite un fichier à 100 Mo).
+*.gguf
+*.safetensors
+models/
+
+# Fichiers vides créés par erreur dans Obsidian
+Sans titre*.canvas
+Sans titre*.base
