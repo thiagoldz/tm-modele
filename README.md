@@ -1,5 +1,10 @@
 # Modèle de dépôt — TM IA 2026-2027
 
+> Modèle proposé par un élève du séminaire, pour démarrer sur une base
+> commune. Rien n'est imposé : chacun l'adapte à sa façon de travailler. Tes
+> retours servent à l'améliorer : voir la section « Donner un retour », en bas
+> de cette page.
+
 Un dossier de départ pour le travail de maturité : **un seul endroit** qui sert
 à la fois de dépôt git, de coffre Obsidian et de source de documentation.
 
@@ -153,3 +158,20 @@ Trois exigences qui expliquent la structure de ce dossier :
   rubrique « usage de l'IA » dans le gabarit de journal.
 - **MyST** est l'outil de rédaction attendu pour la partie écrite. D'où la
   configuration Sphinx fournie.
+
+---
+
+## Donner un retour
+
+Ce modèle s'améliore avec les retours de ceux qui l'essaient. Teste-le sur ta
+machine, puis dis ce qui coince, ce qui manque ou ce qui ne sert à rien :
+
+- **dans le fil de discussion sur Teams**, le plus simple ;
+- **ou dans l'onglet *Issues* de ce dépôt** → *New issue*, si tu as un compte
+  GitHub.
+
+Les modifications sont ensuite intégrées au modèle par son auteur : pas besoin
+de toucher au dépôt toi-même.
+
+Les retours les plus utiles viennent de **Windows et WSL** : les instructions
+de ce README n'ont été testées que sous macOS.
